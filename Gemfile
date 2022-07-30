@@ -9,9 +9,6 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use sqlite3 as the database for Active Record
-# gem "sqlite3", "~> 1.4"
-
 # Use postgresql as the database for Active Record
 gem "pg"
 
@@ -32,6 +29,9 @@ gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
+
+# Use Device for handling authentication
+gem 'devise'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
